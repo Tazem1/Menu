@@ -1,10 +1,19 @@
 html, body {
   margin: 0;
   padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  
+  transform: scale(0.75);
+  transform-origin: 50% 50%;
 }
-canvas{
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
-  border: 2px solid black;
+
+canvas {
+  display: block;
+  margin: auto;
+  border: 8px solid black;
 }
+
